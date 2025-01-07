@@ -18,8 +18,7 @@ Load Tested the Application Using loadtest Package:
 Simulated concurrent users and measured response times, throughput, and errors.
 Observed that clustering significantly reduced errors and improved performance.
 📂 Project Structure
-bash
-Copy code
+
 /node-cluster-example
 │── server.js   # Main server file with clustering
 │── package.json
@@ -31,8 +30,6 @@ npm install
 Start the server:
 npm start
 Run load tests (optional):
-sh
-Copy code
 npm install -g loadtest
 loadtest -c 10 --rps 100 -n 100 http://localhost:3000
 📈 Observations
